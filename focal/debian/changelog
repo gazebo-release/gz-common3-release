@@ -1,3 +1,9 @@
+ignition-common3 (3.9.0-1~focal) focal; urgency=medium
+
+  * ignition-common3 3.9.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 21 Dec 2020 16:58:42 -0800
+
 ignition-common3 (3.8.0-1~focal) focal; urgency=medium
 
   * ignition-common3 3.8.0-1 release
