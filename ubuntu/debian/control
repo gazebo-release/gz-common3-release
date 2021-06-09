@@ -53,11 +53,11 @@ Description: Ignition Common classes and functions (core) - Development files
 Package: libignition-common3-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-common3-core-dev,
-         libignition-common3-av-dev,
-	 libignition-common3-events-dev,
-	 libignition-common3-graphics-dev,
-	 libignition-common3-profiler-dev,
+Depends: libignition-common3-core-dev (= ${binary:Version}),
+         libignition-common3-av-dev (= ${binary:Version}),
+         libignition-common3-events-dev (= ${binary:Version}),
+         libignition-common3-graphics-dev (= ${binary:Version}),
+         libignition-common3-profiler-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Common classes and functions for robot apps - Metapackage
@@ -84,7 +84,7 @@ Package: libignition-common3-av-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-core-dev,
+         libignition-common3-core-dev (= ${binary:Version}),
          libavdevice-dev,
          libavformat-dev,
          libavcodec-dev,
@@ -119,7 +119,7 @@ Package: libignition-common3-events-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-core-dev,
+         libignition-common3-core-dev (= ${binary:Version}),
          libignition-math6-dev,
          libignition-common3-events (= ${binary:Version}),
          ${misc:Depends}
@@ -150,7 +150,7 @@ Package: libignition-common3-graphics-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-core-dev,
+         libignition-common3-core-dev (= ${binary:Version}),
          libignition-math6-dev,
          libtinyxml2-dev,
          libgts-dev,
@@ -183,7 +183,7 @@ Package: libignition-common3-profiler-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-core-dev,
+         libignition-common3-core-dev (= ${binary:Version}),
          libignition-common3-profiler (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
