@@ -1,3 +1,9 @@
+ignition-common3 (3.13.2-2~focal) focal; urgency=medium
+
+  * ignition-common3 3.13.2-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 09 Jun 2021 14:29:10 -0700
+
 ignition-common3 (3.13.2-1~focal) focal; urgency=medium
 
   * ignition-common3 3.13.2-1 release
