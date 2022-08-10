@@ -29,7 +29,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Common classes and functions for robot apps - Shared library
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Main shared library
@@ -45,7 +45,7 @@ Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (core) - Development files
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Core development files
@@ -61,7 +61,7 @@ Depends: libignition-common3-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Common classes and functions for robot apps - Metapackage
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Metapackage for development
@@ -75,7 +75,7 @@ Breaks: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (AV) - Shared library
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  AV component of the library
@@ -96,7 +96,7 @@ Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (AV) - Development files
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  AV component of the library, development files
@@ -110,7 +110,7 @@ Breaks: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (Events) - Shared library
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Events component of the library
@@ -127,7 +127,7 @@ Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (Events) - Development files
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Events component of the library, development files
@@ -141,7 +141,7 @@ Breaks: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (Graphics) - Shared library
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Graphics component of the library
@@ -160,7 +160,7 @@ Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (Graphics) - Development files
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Graphics component of the library, development files
@@ -174,7 +174,7 @@ Breaks: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3 (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (Profiler) - Shared library
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Profiler component of the library
@@ -190,7 +190,7 @@ Breaks: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Replaces: libignition-common3-dev (<< 3.0.0~pre5+hg20190228r1b2df90990)
 Multi-Arch: same
 Description: Gazebo Common classes and functions (profiler) - Development files
- Gazebo Common is a component in the ignition framework, a set of libraries
+ Gazebo Common is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  profiler component of the library, development files
