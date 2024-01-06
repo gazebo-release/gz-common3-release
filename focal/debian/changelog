@@ -1,3 +1,9 @@
+ignition-common3 (3.17.0-1~focal) focal; urgency=medium
+
+  * ignition-common3 3.17.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 05 Jan 2024 18:05:10 -0600
+
 ignition-common3 (3.16.0-1~focal) focal; urgency=medium
 
   * ignition-common3 3.16.0-1 release
