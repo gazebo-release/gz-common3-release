@@ -1,3 +1,9 @@
+ignition-common3 (3.17.1-1~sid) sid; urgency=medium
+
+  * ignition-common3 3.17.1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 31 Jan 2025 15:05:37 -0600
+
 ignition-common3 (3.17.0-1~sid) sid; urgency=medium
 
   * ignition-common3 3.17.0-1 release
